@@ -1,0 +1,31 @@
+{
+  "name": "mission",
+  "plural": "s",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "titre": {
+      "type": "string",
+      "default": ""
+    },
+    "contenu": {
+      "type": "string",
+      "default": ""
+    },
+    "etat": {
+      "type": "string",
+      "default": ""
+    },
+    "date": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

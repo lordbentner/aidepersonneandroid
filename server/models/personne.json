@@ -1,0 +1,23 @@
+{
+  "name": "personne",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "michel": {
+      "type": "string",
+      "required": true,
+      "default": "michel"
+    },
+    "nosseir": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

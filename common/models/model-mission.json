@@ -1,0 +1,39 @@
+{
+  "name": "model_mission",
+  "plural": "s",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "auteur": {
+      "type": "string",
+      "default": "user"
+    },
+    "titre": {
+      "type": "string",
+      "default": ""
+    },
+    "contenu": {
+      "type": "string",
+      "default": ""
+    },
+    "etat_mission": {
+      "type": "string",
+      "default": ""
+    },
+    "date": {
+      "type": "string",
+      "default": ""
+    },
+	"adresse": {
+      "type": "string",
+      "default": ""
+    }	
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
