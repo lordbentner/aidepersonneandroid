@@ -30,7 +30,7 @@
   },
   "Role": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "personne": {
     "dataSource": "db",
