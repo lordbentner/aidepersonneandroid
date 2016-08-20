@@ -1,5 +1,5 @@
 {
-  "name": "model_mission",
+  "name": "list_mission",
   "plural": "s",
   "base": "PersistedModel",
   "idInjection": true,
@@ -12,18 +12,6 @@
       "default": ""
     },
     "contenu": {
-      "type": "string",
-      "default": ""
-    },
-    "etat_mission": {
-      "type": "string",
-      "default": ""
-    },
-    "date": {
-      "type": "string",
-      "default": ""
-    },
-    "adresse": {
       "type": "string",
       "default": ""
     }

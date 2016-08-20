@@ -47,5 +47,9 @@
   "model_mission": {
     "dataSource": "db",
     "public": true
+  },
+  "list_mission": {
+    "dataSource": "db",
+    "public": true
   }
 }
