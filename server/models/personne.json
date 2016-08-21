@@ -6,12 +6,23 @@
     "validateUpsert": true
   },
   "properties": {
-    "michel": {
+    "titre": {
       "type": "string",
-      "required": true,
-      "default": "michel"
+      "default": ""
     },
-    "nosseir": {
+    "contenu": {
+      "type": "string",
+      "default": ""
+    },
+    "etat": {
+      "type": "string",
+      "default": ""
+    },
+    "date": {
+      "type": "string",
+      "default": ""
+    }
+	"adresse": {
       "type": "string",
       "default": ""
     }
