@@ -21,7 +21,7 @@
     "date": {
       "type": "string",
       "default": ""
-    }
+    },
 	"adresse": {
       "type": "string",
       "default": ""
